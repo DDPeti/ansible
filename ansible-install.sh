@@ -6,5 +6,5 @@ sudo apt-get update
 sudo apt-get install ansible -y
 sudo apt-get install openssh-server -y
 git clone https://github.com/andreipak/wordpress-ansible.git
-cd /home/teszt/andreipak
+cd /home/teszt/ansible/wordpress-ansible
 sudo ansible-playbook playbook.yml -i hosts -e mysql_root_password=123123
